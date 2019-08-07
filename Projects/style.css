@@ -1,0 +1,53 @@
+body{
+    font-family:"Roboto Condensed";
+    background:#111;
+    color:white;
+    overflow-x:hidden;
+
+    /* color:; */
+}
+nav{
+    width:90vw;
+}
+h1{
+    font-size:48px;
+    margin-left:20px;
+}
+hr{
+    width:4
+}
+.table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 99vw;
+    overflow: hidden;
+    box-shadow: 0 0 20px #222;
+    
+
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    /* border:0.5px solid white; */
+  }
+  .table td {
+    text-align: center;
+  }
+  nav{
+    width:70vw;
+
+  }
+  ul{
+      display: flex;
+
+      text-decoration: none;
+      list-style-type: none;
+      margin:40px;
+      width:70vw;
+  }
+  li{
+    padding: 20px;
+    font-size:24px;
+  }
