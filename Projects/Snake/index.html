@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+
+</head>
+<body>
+
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+
+        <canvas id="canvas"></canvas>
+        <br>
+        <div id="left-side-coords"></div>
+        <br>
+        <div id="prediction"></div>
+        <br>
+        <div id="distance"></div>
+        <br>
+        <div id="points">Points: 0</div>
+        <br>
+        <div id="food-coords"></div>
+        <br>
+        <input type="range" id="epochs" min=2 max=150 steps=5>
+        <p id="epoches"></p>
+        <!-- <button id="btn">Train!</button> -->
+        <script src="index.js"></script>
+</body>
+</html>
